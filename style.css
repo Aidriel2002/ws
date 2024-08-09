@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    
+}
+h2 {
+    text-align: center;
+    color: rgb(71, 67, 67);
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 5px;
+    width: 350px;
+    padding:15px ;
+    background-color: antiquewhite;
+    font-family: sans-serif;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    padding: 7px;
+    border-radius: 7px;
+    border: none;
+}
+textarea {
+    resize: none;
+    height: 3rem;
+    border: none;
+    border-radius: 7px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+button {
+    border-radius: 7px;
+    border: none;
+    padding: 12px 30px;
+    cursor: pointer;
+    background-color: #0e2f6b;
+    color: #fff;
+    font-weight: bold;
+}
+.bttn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+label {
+    font-size: 13px;
+    margin: 5px 0 0 5px;
+}
+.row p{
+    font-size: 13px;
+    margin: 5px 0 0 5px;
+}
+.rowch{
+    font-weight: bold;
+}
+.rowch input{
+    cursor: pointer;
+}
+.row input{
+    cursor: pointer;
+}
